@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Historia Económica</title>
+	<title>Responsive HTML</title>
 </head>
 
 <body>
@@ -14,29 +14,20 @@
         .contenedor{display: flex; justify-content: space-between; height: 500px; padding: 0.9em; padding-top: 60px}
         #inicio{background: darkred; transition-duration: 1s}
             #inicio:hover{background: goldenrod; color: tomato}
-        #comision1{background: green; transition-duration: 1s}
-            #comision1:hover{background: goldenrod; color; color: tomato}
-        #comision2{background: salmon; transition-duration: 1s}
-            #comision2:hover{background: goldenrod; color: tomato}
-        #comision3{background-color: darkslateblue; transition-duration: 1s}
-            #comision3:hover{background: goldenrod; color: tomato}
-        #practicos{background-color: violet; transition-duration: 1s}
-            #practicos:hover{background: goldenrod; color: tomato}
-        #parciales{background-color: coral; transition-duration: 1s}
-            #parciales:hover{background: goldenrod; color: tomato}
-        #examenes{background-color: chartreuse; transition-duration: 1s}
-            #examenes:hover{background: goldenrod; color: tomato}
+        #bloque1{background: green; transition-duration: 1s}
+            #bloque1:hover{background: goldenrod; color; color: tomato}
+        #bloque2{background: salmon; transition-duration: 1s}
+            #bloque2:hover{background: goldenrod; color: tomato}
+        #bloque3{background-color: darkslateblue; transition-duration: 1s}
+            #bloque3:hover{background: goldenrod; color: tomato}
         
         @keyframes izquierda{0%{transform: translateX(-100%)}100%{transform: translateX(0%)}}
         @keyframes derecha{0%{transform: translateX(750%)}100%{transform: translateX(0%)}}
         #header{animation-name: izquierda; animation-duration: 2s; animation-fill-mode: backwards; animation-delay: 0}
         #inicio{animation-name: derecha; animation-duration: 2s; animation-fill-mode: backwards; animation-delay: 1s}
-        #comision1{animation-name: derecha; animation-duration: 2s; animation-fill-mode: backwards; animation-delay: 1.2s}
-        #comision2{animation-name: derecha; animation-duration: 2s; animation-fill-mode: backwards; animation-delay: 1.4s}
-        #comision3{animation-name: derecha; animation-duration: 2s; animation-fill-mode: backwards; animation-delay: 1.6s}
-        #practicos{animation-name: derecha; animation-duration: 2s; animation-fill-mode: backwards; animation-delay: 1.8s}
-        #parciales{animation-name: derecha; animation-duration: 2s; animation-fill-mode: backwards; animation-delay: 2s}
-        #examenes{animation-name: derecha; animation-duration: 2s; animation-fill-mode: backwards; animation-delay: 2.2s}
+        #bloque1{animation-name: derecha; animation-duration: 2s; animation-fill-mode: backwards; animation-delay: 1.2s}
+        #bloque2{animation-name: derecha; animation-duration: 2s; animation-fill-mode: backwards; animation-delay: 1.4s}
+        #bloque3{animation-name: derecha; animation-duration: 2s; animation-fill-mode: backwards; animation-delay: 1.6s}
         
         @media screen and (min-width:901px) and (max-width:1200px) {html{background: rgb(200, 70, 50); font-size: 18px}}
         @media screen and (min-width:601px) and (max-width:900px) {html{background: rgb(150, 70, 50); font-size: 10px}}
@@ -44,30 +35,17 @@
     </style>
 
     <header id='header'>
-        <h1>Esquema Aula Virtual</h1>
+        <h1>Esquema del Sitio</h1>
 	</header>
 
     <div class="contenedor">
     <section id="inicio"><h2>Inicio</h2>
-        <h3>Presentación</h3><h3>Programa</h3><h3>Régimen de aprobación</h3><h3>Fechas importantes</h3><h3>Bibliografía</h3></section>
     
-	<section id="comision1"><h2>Comisión 1</h2>
-        <h3>Cronograma</h3><h3>Meets de Clases</h3><h3>Consultas</h3></section>
+	<section id="bloque1"><h2>Bloque 1</h2>
     
-	<section id="comision2"><h2>Comisión 2</h2>
-        <h3>Cronograma</h3><h3>Meets de Clases</h3><h3>Consultas</h3></section>
+	<section id="bloque2"><h2>Bloque 2</h2>
     
-	<section id="comision3"><h2>Comisión 3</h2>
-        <h3>Cronograma</h3><h3>Meets de Clases</h3><h3>Consultas</h3></section>
-    
-	<section id="practicos"><h2>Prácticos</h2>
-        <h3>TP 1</h3><h3>TP 2</h3><h3>TP 3</h3></section>
-	
-	<section id="parciales"><h2>Parciales</h2>
-        <h3>Protocolo</h3><h3>Parcial 1</h3><h3>Parcial 2</h3></section>
-    
-    <section id="examenes"><h2>Finales</h2>
-        <h3>Protocolo</h3><h3>Meets de Mesas</h3><h3>Examen Escrito</h3></section>
+	<section id="bloque3"><h2>Bloque 3</h2>
 
 </div>
 
